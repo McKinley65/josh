@@ -16,11 +16,11 @@ public class Pet {
     }
 
     private void doubleCapacity() {
-        Animal[] bigAcc = new Animal[count * 2];
+        Animal[] bigAni = new Animal[count * 2];
         for (int i = 0; i < count; i++) {
-            bigAcc[i] = animals[i];
+            bigAni[i] = animals[i];
         }
-        animals = bigAcc;
+        animals = bigAni;
 
     }
 

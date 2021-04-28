@@ -41,7 +41,7 @@ public abstract class Animal {
     public String toString() {
         return Name + " " + "[" + petId + "]";
     }
-    public abstract void updateAccount();
+    public abstract void updateAnimal();
 
     public int hashCode() {
         return Objects.hash(petId);

@@ -18,7 +18,7 @@ public class Cat extends Animal {
     }
 
         @Override
-        public void updateAccount() {
+        public void updateAnimal() {
             getCatBreed();
             getFurColor();
 
